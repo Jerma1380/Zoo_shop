@@ -1,16 +1,10 @@
-# pks3
+# Лушков Глеб ЭФБО-02-22
 
-A new Flutter project.
+# Практическая работа 4
 
-## Getting Started
+# Кнопка перехода в режим редактирования ![alt text](Screenshot_1728024077-1.png)
 
-This project is a starting point for a Flutter application.
+# Подтверждение удаления товара ![alt text](Screenshot_1728024087-1.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Добавление товара ![alt text](Screenshot_1728024207-1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
