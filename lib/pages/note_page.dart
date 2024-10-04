@@ -9,9 +9,9 @@ class NotePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold( backgroundColor: Color.fromARGB(255, 143, 218, 255),
+    return Scaffold( backgroundColor: const Color.fromARGB(255, 143, 218, 255),
       
-      appBar: AppBar(title: Text('Описание'),
+      appBar: AppBar(title: const Text('Описание'),
       ),
       
       
@@ -20,7 +20,7 @@ class NotePage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Image.asset(picture, width: 580, height: 420, fit: BoxFit.fill),
+              Image.network(picture, width: 580, height: 320, fit: BoxFit.fill),
               const SizedBox(height: 30),
               Text(data, style: const TextStyle(color: Color.fromARGB(255, 62, 61, 61),fontSize: 26),),
             ],

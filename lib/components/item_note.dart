@@ -30,7 +30,7 @@ class ItemNote extends StatelessWidget {
                   Text(title, style: const TextStyle(color: Color.fromARGB(255, 62, 61, 61), fontSize: 24),
                  
                   ),
-                  Image.asset(picture, width: 260, height: 180, fit: BoxFit.fill,),
+                  Image.network(picture, width: 260, height: 180, fit: BoxFit.fill,),
                    
                   Padding( 
                     padding: const EdgeInsets.all(16.0),
