@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 
-class NotePage extends StatelessWidget {
-  const NotePage({super.key, required this.picture, required this.data});
+class Data extends StatelessWidget {
+  const Data({super.key, required this.pet});
+  final Map<String, dynamic> pet;
 
- final String picture;
- final String data;
+
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold( backgroundColor: Color.fromARGB(255, 143, 218, 255),
+    return Scaffold( backgroundColor: const Color.fromARGB(255, 143, 218, 255),
       
-      appBar: AppBar(title: Text('Описание'),
+      appBar: AppBar(title: const Text('Описание'),
       ),
       
       
@@ -20,9 +20,25 @@ class NotePage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Image.asset(picture, width: 580, height: 420, fit: BoxFit.fill),
+              Image.network(pet["image_url"], width: 580, height: 320, fit: BoxFit.fill, 
+              loadingBuilder: (context, child, loadingProgress) {
+    if (loadingProgress == null) return child;
+    return const Center(
+      child: CircularProgressIndicator(),
+    );
+  },
+  errorBuilder: (context, error, stackTrace) {
+    return const Center(
+      child: Icon(
+        Icons.broken_image,
+        size: 50,
+        color: Colors.grey,
+      ),
+    );
+  },
+),  
               const SizedBox(height: 30),
-              Text(data, style: const TextStyle(color: Color.fromARGB(255, 62, 61, 61),fontSize: 26),),
+              Text(pet["data"], style: const TextStyle(color: Color.fromARGB(255, 62, 61, 61),fontSize: 26),),
             ],
           ),
         ),
