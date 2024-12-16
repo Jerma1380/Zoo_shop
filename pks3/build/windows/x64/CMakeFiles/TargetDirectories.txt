@@ -1,0 +1,16 @@
+C:/Program Files/VisualStudio/pks3/build/windows/x64/CMakeFiles/INSTALL.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/runner/CMakeFiles/pks3.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/plugins/file_selector_windows/CMakeFiles/file_selector_windows_plugin.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/plugins/file_selector_windows/CMakeFiles/INSTALL.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/plugins/file_selector_windows/CMakeFiles/ALL_BUILD.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/permission_handler_windows_plugin.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/INSTALL.dir
+C:/Program Files/VisualStudio/pks3/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/ALL_BUILD.dir
